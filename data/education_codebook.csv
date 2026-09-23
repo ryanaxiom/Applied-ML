@@ -1,0 +1,7 @@
+variable,label,source,dtype,n_missing,n_unique,min,max,value_labels
+state,Two-letter state code (50 states; no DC),RABE,str,0,50,AK,WY,NB = Nebraska (pre-1969 postal code; now NE)
+spend,"Per capita expenditure on public education, dollars (1960). The target.",RABE (Census/Statistical Abstract),int64,0,38,49,142,
+income,"Per capita personal income, dollars (1960)",RABE (Census/Statistical Abstract),int64,0,50,1053,2817,
+young,"Residents under 18 years of age, per 1,000 population (1960)",RABE (Census/Statistical Abstract),int64,0,45,334,637,
+urban,"Residents living in urban areas, per 1,000 population (1960)",RABE (Census/Statistical Abstract),int64,0,45,326,899,
+region,"Census region (nominal code, not a quantity)",RABE,int64,0,4,1,4,1 = Northeast; 2 = North Central; 3 = South; 4 = West
