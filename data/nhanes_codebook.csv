@@ -1,0 +1,22 @@
+variable,label,source,dtype,n_missing,n_unique,min,max,value_labels
+ID,Participant identifier (NHANES SEQN); one row per person,NHANES 2009-2012 via R package NHANES (NHANESraw),int64,0,11769,51624.0,71915.0,
+SurveyYr,Survey cycle the participant took part in,NHANES 2009-2012 via R package NHANES (NHANESraw),object,0,2,,,2009_10; 2011_12
+Age,Age in years at screening; participants 80 or older are recorded as 80,NHANES 2009-2012 via R package NHANES (NHANESraw),int64,0,61,20.0,80.0,
+Sex,Sex of participant,NHANES 2009-2012 via R package NHANES (NHANESraw),object,0,2,,,female; male
+Education,Educational level (adults 20+),NHANES 2009-2012 via R package NHANES (NHANESraw),object,19,5,,,8th Grade; 9 - 11th Grade; High School; Some College; College Grad
+HHIncomeMid,"Household annual income in US dollars, midpoint of the reported income bracket",NHANES 2009-2012 via R package NHANES (NHANESraw),float64,1278,12,2500.0,100000.0,
+Poverty,Ratio of family income to the federal poverty guideline; smaller is poorer; values of 5 or more are recorded as 5,NHANES 2009-2012 via R package NHANES (NHANESraw),float64,1115,464,0.0,5.0,
+Height,Standing height in cm,NHANES 2009-2012 via R package NHANES (NHANESraw),float64,526,560,123.3,204.5,
+Weight,Weight in kg,NHANES 2009-2012 via R package NHANES (NHANESraw),float64,524,1111,29.1,230.7,
+BMI,"Body mass index, weight / height^2 in kg/m^2",NHANES 2009-2012 via R package NHANES (NHANESraw),float64,545,2430,13.18,84.87,
+BPSysAve,"Combined systolic blood pressure reading, mm Hg",NHANES 2009-2012 via R package NHANES (NHANESraw),float64,923,140,74.0,233.0,
+BPDiaAve,"Combined diastolic blood pressure reading, mm Hg. 0 is recorded for some people; a diastolic pressure of 0 is not possible",NHANES 2009-2012 via R package NHANES (NHANESraw),float64,923,109,0.0,131.0,
+Pulse,60-second pulse rate,NHANES 2009-2012 via R package NHANES (NHANESraw),float64,902,47,36.0,172.0,
+TotChol,Total cholesterol in mmol/L,NHANES 2009-2012 via R package NHANES (NHANESraw),float64,1167,279,1.53,13.65,
+DirectChol,Direct HDL cholesterol in mmol/L,NHANES 2009-2012 via R package NHANES (NHANESraw),float64,1167,120,0.36,4.63,
+PhysActive,"Does moderate or vigorous-intensity sports, fitness, or recreational activities",NHANES 2009-2012 via R package NHANES (NHANESraw),object,0,2,,,Yes; No
+SleepHrsNight,Self-reported hours of sleep on weekday or workday nights,NHANES 2009-2012 via R package NHANES (NHANESraw),float64,25,11,2.0,12.0,
+Smoke100,Has smoked at least 100 cigarettes in their lifetime,NHANES 2009-2012 via R package NHANES (NHANESraw),object,6,2,,,Yes; No
+SmokeNow,"Currently smokes cigarettes regularly. Asked only of those with Smoke100 = Yes; everyone else is blank (never a smoker, not missing)",NHANES 2009-2012 via R package NHANES (NHANESraw),object,6541,2,,,Yes; No; blank = Smoke100 is No
+Diabetes,TARGET. Told by a doctor or health professional that they have diabetes,NHANES 2009-2012 via R package NHANES (NHANESraw),object,0,2,,,Yes; No
+DiabetesAge,"Age when first told they had diabetes. Recorded only for people with Diabetes = Yes, so it is blank for every No: it contains the target",NHANES 2009-2012 via R package NHANES (NHANESraw),float64,10350,80,1.0,80.0,
