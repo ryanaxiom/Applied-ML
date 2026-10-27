@@ -1,0 +1,22 @@
+variable,definition,dtype,n_missing,n_unique,min,max,levels
+status,status of the debtor's checking account with this bank (DM = Deutsche Mark),text/categorical,0,4,,,... >= 200 DM / salary for at least 1 year (394) | no checking account (274) | ... < 0 DM (269) | 0<= ... < 200 DM (63)
+duration,"credit duration, in months",numeric,0,33,4,72,
+credit_history,history of compliance with previous or concurrent credit contracts,text/categorical,0,5,,,no credits taken/all credits paid back duly (530) | all credits at this bank paid back duly (293) | existing credits paid back duly till now (88) | critical account/other credits elsewhere (49) | delay in paying off in the past (40)
+purpose,purpose for which the credit is needed,text/categorical,0,10,,,furniture/equipment (280) | others (234) | car (used) (181) | car (new) (103) | retraining (97) | repairs (50) | domestic appliances (22) | business (12) | radio/television (12) | vacation (9)
+amount,"credit amount, in DM",numeric,0,923,250,18424,
+savings,"debtor's savings, in DM",text/categorical,0,5,,,unknown/no savings account (603) | ... >= 1000 DM (183) | ... <  100 DM (103) | 100 <= ... <  500 DM (63) | 500 <= ... < 1000 DM (48)
+employment_duration,duration of the debtor's employment with the current employer,text/categorical,0,5,,,1 <= ... < 4 yrs (339) | >= 7 yrs (253) | 4 <= ... < 7 yrs (174) | < 1 yr (172) | unemployed (62)
+installment_rate,credit installments as a percentage of the debtor's disposable income (binned),text/categorical,0,4,,,< 20 (476) | 25 <= ... < 35 (231) | 20 <= ... < 25 (157) | >= 35 (136)
+personal_status_sex,combined information on sex and marital status (one level mixes sexes),text/categorical,0,4,,,male : married/widowed (548) | female : non-single or male : single (310) | female : single (92) | male : divorced/separated (50)
+other_debtors,another debtor or a guarantor for the credit,text/categorical,0,3,,,none (907) | guarantor (52) | co-applicant (41)
+present_residence,length of time the debtor has lived in the present residence (binned),text/categorical,0,4,,,>= 7 yrs (413) | 1 <= ... < 4 yrs (308) | 4 <= ... < 7 yrs (149) | < 1 yr (130)
+property,the debtor's most valuable property,text/categorical,0,4,,,building soc. savings agr./life insurance (332) | unknown / no property (282) | car or other (232) | real estate (154)
+age,"age, in years",numeric,0,53,19,75,
+other_installment_plans,installment plans from providers other than this bank,text/categorical,0,3,,,none (814) | bank (139) | stores (47)
+housing,type of housing the debtor lives in,text/categorical,0,3,,,rent (714) | for free (179) | own (107)
+number_credits,"number of credits, including this one, the debtor has or had at this bank (binned)",text/categorical,0,4,,,1 (633) | 2-3 (333) | 4-5 (28) | >= 6 (6)
+job,quality of the debtor's job,text/categorical,0,4,,,skilled employee/official (630) | unskilled - resident (200) | manager/self-empl./highly qualif. employee (148) | unemployed/unskilled - non-resident (22)
+people_liable,number of persons who depend financially on the debtor (binned),text/categorical,0,2,,,0 to 2 (845) | 3 or more (155)
+telephone,a telephone landline registered in the debtor's name,text/categorical,0,2,,,no (596) | yes (under customer name) (404)
+foreign_worker,whether the debtor is a foreign worker,text/categorical,0,2,,,no (963) | yes (37)
+credit_risk,TARGET: whether the credit contract was complied with (good) or not (bad),text/categorical,0,2,,,good (700) | bad (300)
