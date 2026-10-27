@@ -1,0 +1,15 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+Status,credit status (good or bad),text/categorical,0,2,,
+Seniority,job seniority (years),numeric,0,47,0,48
+Home,type of home ownership,text/categorical,6,6,,
+Time,time of requested loan,numeric,0,11,6,72
+Age,client's age,numeric,0,50,18,68
+Marital,marital status,text/categorical,1,5,,
+Records,existence of records,text/categorical,0,2,,
+Job,type of job,text/categorical,2,4,,
+Expenses,amount of expenses,numeric,0,94,35,180
+Income,amount of income,text/categorical,381,351,,
+Assets,amount of assets,text/categorical,47,159,,
+Debt,amount of debt,text/categorical,18,182,,
+Amount,amount requested of loan,numeric,0,285,100,5000
+Price,price of good,numeric,0,1419,105,11140

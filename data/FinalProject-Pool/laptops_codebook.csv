@@ -1,0 +1,12 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+Company,manufacturer,text/categorical,0,19,,
+TypeName,"laptop type (Notebook, Gaming, Ultrabook, ...)",text/categorical,0,6,,
+Inches,"screen size, inches",numeric,0,18,10.1,18.4
+ScreenResolution,screen description including resolution (text),text/categorical,0,40,,
+Cpu,processor description including clock speed (text),text/categorical,0,118,,
+Ram,"memory (text, e.g. '8GB')",text/categorical,0,9,,
+Memory,"storage description (text, e.g. '256GB SSD')",text/categorical,0,39,,
+Gpu,graphics processor (text),text/categorical,0,110,,
+OpSys,operating system,text/categorical,0,9,,
+Weight,"weight (text, e.g. '1.37kg')",text/categorical,0,179,,
+Price,price (rescaled by the mirror; not euros as on Kaggle),numeric,0,791,9270.72,324954.72

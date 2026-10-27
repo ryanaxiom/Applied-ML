@@ -1,0 +1,29 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+model_yr,a numeric vector,numeric,0,1,2021.0,2021.0
+mfr_name,Manufacturer name.,text/categorical,0,22,,
+division,Vehicle division.,text/categorical,0,41,,
+carline,Vehicle line.,text/categorical,0,788,,
+mfr_code,Manufacturer code.,text/categorical,0,22,,
+model_type_index,Model type index.,numeric,0,502,1.0,999.0
+engine_displacement,Engine displacement.,numeric,0,39,1.0,8.0
+no_cylinders,Number of cylinders.,numeric,0,8,3.0,16.0
+transmission_speed,Transmission speed.,text/categorical,0,25,,
+city_mpg,City mileage.,numeric,0,43,8.0,58.0
+hwy_mpg,Highway mileage.,numeric,0,44,13.0,60.0
+comb_mpg,Combined mileage.,numeric,0,45,10.0,59.0
+guzzler,"Whether the car is considered a ""guzzler"" or not, a factor with levels N and Y.",text/categorical,0,2,,
+air_aspir_method,Air aspiration method.,text/categorical,0,5,,
+air_aspir_method_desc,Air aspiration method description.,text/categorical,0,5,,
+transmission,Transmission type.,text/categorical,0,7,,
+transmission_desc,Transmission type description.,text/categorical,0,7,,
+no_gears,Number of gears.,numeric,0,7,1.0,10.0
+trans_lockup,"Whether transmission locks up, a factor with levels N and Y.",text/categorical,0,2,,
+trans_creeper_gear,A factor with level N only.,text/categorical,0,2,,
+drive_sys,"Drive system, a factor with levels.",text/categorical,0,5,,
+drive_desc,Drive system description.,text/categorical,0,5,,
+fuel_usage,"Fuel usage, a factor with levels.",text/categorical,0,6,,
+fuel_usage_desc,Fuel usage description.,text/categorical,0,6,,
+class,Class of car.,text/categorical,0,22,,
+car_truck,"Car or truck, a factor with levels car, 1, ??, 1.",text/categorical,507,3,,
+release_date,Date of vehicle release.,text/categorical,0,159,,
+fuel_cell,"Whether the car has a fuel cell or not, a factor with levels N, NA.",text/categorical,856,1,,

@@ -1,0 +1,22 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+spam,Indicator for whether the email was spam.,text/categorical,0,2,,
+to_multiple,Indicator for whether the email was addressed to more than one recipient.,text/categorical,0,2,,
+from,Whether the message was listed as from anyone (this is usually set by default for regular outgoing email).,text/categorical,0,2,,
+cc,Number of people cc'ed.,numeric,0,26,0,68
+sent_email,Indicator for whether the sender had been sent an email in the last 30 days.,text/categorical,0,2,,
+time,Time at which email was sent.,text/categorical,0,3840,,
+image,The number of images attached.,numeric,0,8,0.0,20.0
+attach,The number of attached files.,numeric,0,13,0.0,21.0
+dollar,The number of times a dollar sign or the word \dQuote{dollar} appeared in the email.,numeric,0,41,0.0,64.0
+winner,Indicates whether \dQuote{winner} appeared in the email.,text/categorical,0,2,,
+inherit,"The number of times \dQuote{inherit} (or an extension, such as \dQuote{inheritance}) appeared in the email.",numeric,0,5,0.0,9.0
+viagra,The number of times \dQuote{viagra} appeared in the email.,numeric,0,2,0.0,8.0
+password,The number of times \dQuote{password} appeared in the email.,numeric,0,13,0.0,28.0
+num_char,"The number of characters in the email, in thousands.",numeric,0,3362,0.001,190.087
+line_breaks,The number of line breaks in the email (does not count text wrapping).,numeric,0,797,1,4022
+format,Indicates whether the email was written using HTML (e.g. may have included bolding or active links).,text/categorical,0,2,,
+re_subj,"Whether the subject started with \dQuote{Re:}, \dQuote{RE:}, \dQuote{re:}, or \dQuote{rE:}",text/categorical,0,2,,
+exclaim_subj,Whether there was an exclamation point in the subject.,numeric,0,2,0.0,1.0
+urgent_subj,Whether the word \dQuote{urgent} was in the email subject.,text/categorical,0,2,,
+exclaim_mess,The number of exclamation points in the email message.,numeric,0,73,0.0,1236.0
+number,"Factor variable saying whether there was no number, a small number (under 1 million), or a big number.",text/categorical,0,3,,

@@ -1,0 +1,22 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+Country,respondent's country,text/categorical,0,5,,
+Salary,annual salary as released in the case-study data,numeric,0,983,1136.36363636364,197000.0
+YearsCodedJob,years coding professionally,numeric,0,21,0,20
+OpenSource,contributes to open source (1/0),numeric,0,2,0.0,1.0
+Hobby,codes as a hobby (1/0),numeric,0,2,0.0,1.0
+CompanySizeNumber,number of employees at the respondent's company,numeric,0,8,1.0,10000.0
+Remote,works remotely or not,text/categorical,0,2,,
+CareerSatisfaction,career satisfaction score,numeric,0,11,0,10
+Data_scientist,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Database_administrator,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Desktop_applications_developer,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Developer_with_stats_math_background,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+DevOps,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Embedded_developer,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Graphic_designer,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Graphics_programming,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Machine_learning_specialist,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Mobile_developer,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Quality_assurance_engineer,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Systems_administrator,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0
+Web_developer,1 if the respondent selected this developer type (more than one can be 1),numeric,0,2,0.0,1.0

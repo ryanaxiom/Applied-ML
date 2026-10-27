@@ -1,0 +1,11 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+carat,weight of the diamond (0.2-5.01),numeric,0,273,0.2,5.01
+cut,"quality of the cut (Fair, Good, Very Good, Premium, Ideal)",text/categorical,0,5,,
+color,"diamond colour, from D (best) to J (worst)",text/categorical,0,7,,
+clarity,"a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))",text/categorical,0,8,,
+depth,"total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43-79)",numeric,0,184,43.0,79.0
+table,width of top of diamond relative to widest point (43-95),numeric,0,127,43.0,95.0
+price,"price in US dollars ($326-$18,823)",numeric,0,11602,326,18823
+x,length in mm (0-10.74),numeric,0,554,0.0,10.74
+y,width in mm (0-58.9),numeric,0,552,0.0,58.9
+z,depth in mm (0-31.8),numeric,0,375,0.0,31.8

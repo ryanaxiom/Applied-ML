@@ -1,0 +1,17 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+Name,game title,text/categorical,2,11562,,
+Platform,console or platform,text/categorical,0,31,,
+Year_of_Release,year of release,numeric,269,39,1980.0,2020.0
+Genre,genre,text/categorical,2,12,,
+Publisher,publisher,text/categorical,54,581,,
+NA_Sales,"North American sales, millions of units",numeric,0,402,0.0,41.36
+EU_Sales,"European sales, millions of units",numeric,0,307,0.0,28.96
+JP_Sales,"Japanese sales, millions of units",numeric,0,244,0.0,10.22
+Other_Sales,"rest-of-world sales, millions of units",numeric,0,155,0.0,10.57
+Global_Sales,"worldwide sales, millions of units",numeric,0,629,0.01,82.53
+Critic_Score,Metacritic critic score (0-100),numeric,8582,82,13.0,98.0
+Critic_Count,number of critic reviews behind Critic_Score,numeric,8582,106,3.0,113.0
+User_Score,Metacritic user score (0-10); 'tbd' = not yet determined,text/categorical,6704,96,,
+User_Count,number of user ratings behind User_Score,numeric,9129,888,4.0,10665.0
+Developer,developer,text/categorical,6623,1696,,
+Rating,ESRB rating,text/categorical,6769,8,,

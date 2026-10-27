@@ -1,0 +1,56 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+emp_title,Job title.,text/categorical,0,4742,,
+emp_length,"Number of years in the job, rounded down. If longer than 10 years, then this is represented by the value 10.",numeric,817,11,0.0,10.0
+state,Two-letter state code.,text/categorical,0,50,,
+homeownership,The ownership status of the applicant's residence.,text/categorical,0,3,,
+annual_income,Annual income.,numeric,0,1463,0.0,2300000.0
+verified_income,Type of verification of the applicant's income.,text/categorical,0,3,,
+debt_to_income,Debt-to-income ratio.,numeric,24,3673,0.0,469.09
+annual_income_joint,"If this is a joint application, then the annual income of the two parties applying.",numeric,8505,596,19200.0,1100000.0
+verification_income_joint,Type of verification of the joint income.,text/categorical,0,4,,
+debt_to_income_joint,Debt-to-income ratio for the two parties.,numeric,8505,1189,0.32,39.98
+delinq_2y,Delinquencies on lines of credit in the last 2 years.,numeric,0,12,0,13
+months_since_last_delinq,Months since the last delinquency.,text/categorical,5658,97,,
+earliest_credit_line,Year of the applicant's earliest line of credit,numeric,0,53,1963.0,2015.0
+inquiries_last_12m,Inquiries into the applicant's credit during the last 12 months.,numeric,0,26,0,29
+total_credit_lines,Total number of credit lines in this applicant's credit history.,numeric,0,78,2,87
+open_credit_lines,Number of currently open lines of credit.,numeric,0,45,0,51
+total_credit_limit,"Total available credit, e.g. if only credit cards, then the total of all the credit limits. This excludes a mortgage.",numeric,0,9119,0,3386034
+total_credit_utilized,"Total credit balance, excluding a mortgage.",numeric,0,9497,0,942456
+num_collections_last_12m,Number of collections in the last 12 months. This excludes medical collections.,numeric,0,4,0,3
+num_historical_failed_to_pay,"The number of derogatory public records, which roughly means the number of times the applicant failed to pay.",numeric,0,9,0,52
+months_since_90d_late,Months since the last time the applicant was 90 days late on a payment.,text/categorical,7715,106,,
+current_accounts_delinq,Number of accounts where the applicant is currently delinquent.,numeric,0,2,0,1
+total_collection_amount_ever,The total amount that the applicant has had against them in collections.,numeric,0,896,0,199308
+current_installment_accounts,"Number of installment accounts, which are (roughly) accounts with a fixed payment amount and period. A typical example might be a 36-month car loan.",numeric,0,30,0,35
+accounts_opened_24m,Number of new lines of credit opened in the last 24 months.,numeric,0,26,0,29
+months_since_last_credit_inquiry,Number of months since the last credit inquiry on this applicant.,text/categorical,1271,25,,
+num_satisfactory_accounts,Number of satisfactory accounts.,numeric,0,45,0,51
+num_accounts_120d_past_due,Number of current accounts that are 120 days past due.,text/categorical,318,1,,
+num_accounts_30d_past_due,Number of current accounts that are 30 days past due.,numeric,0,2,0,1
+num_active_debit_accounts,Number of currently active bank cards.,numeric,0,25,0,32
+total_debit_limit,Total of all bank card limits.,numeric,0,1222,0,386700
+num_total_cc_accounts,Total number of credit card accounts in the applicant's history.,numeric,0,56,2,66
+num_open_cc_accounts,Total number of currently open credit card accounts.,numeric,0,40,0,46
+num_cc_carrying_balance,Number of credit cards that are carrying a balance.,numeric,0,30,0,43
+num_mort_accounts,Number of mortgage accounts.,numeric,0,15,0,14
+account_never_delinq_percent,Percent of all lines of credit where the applicant was never delinquent.,numeric,0,282,14.3,100.0
+tax_liens,a numeric vector,numeric,0,9,0,52
+public_record_bankrupt,Number of bankruptcies listed in the public record for this applicant.,numeric,0,4,0,3
+loan_purpose,The category for the purpose of the loan.,text/categorical,0,12,,
+application_type,The type of application: either individual or joint.,text/categorical,0,2,,
+loan_amount,The amount of the loan the applicant received.,numeric,0,612,1000,40000
+term,The number of months of the loan the applicant received.,numeric,0,2,36.0,60.0
+interest_rate,Interest rate of the loan the applicant received.,numeric,0,58,5.31,30.94
+installment,Monthly payment for the loan the applicant received.,numeric,0,3540,30.75,1566.59
+grade,Grade associated with the loan.,text/categorical,0,7,,
+sub_grade,Detailed grade associated with the loan.,text/categorical,0,32,,
+issue_month,Month the loan was issued.,text/categorical,0,3,,
+loan_status,Status of the loan.,text/categorical,0,6,,
+initial_listing_status,Initial listing status of the loan. (I think this has to do with whether the lender provided the entire loan or if the loan is across multiple lenders.),text/categorical,0,2,,
+disbursement_method,Dispersement method of the loan.,text/categorical,0,2,,
+balance,Current balance on the loan.,numeric,0,5741,0.0,40000.0
+paid_total,Total that has been paid on the loan by the applicant.,numeric,0,7475,0.0,41630.443684235
+paid_principal,The difference between the original loan amount and the current balance on the loan.,numeric,0,5765,0.0,40000.0
+paid_interest,The amount of interest paid so far by the applicant.,numeric,0,7422,0.0,4216.44
+paid_late_fees,Late fees paid by the applicant.,numeric,0,29,0.0,52.98

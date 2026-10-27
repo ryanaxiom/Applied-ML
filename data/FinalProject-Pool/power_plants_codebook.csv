@@ -1,0 +1,37 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+country,3-letter country code,text/categorical,0,167,,
+country_long,country name,text/categorical,0,167,,
+name,plant name,text/categorical,0,34528,,
+gppd_idnr,database identifier,text/categorical,0,34936,,
+capacity_mw,"electrical generating capacity, megawatts",numeric,0,5611,1.0,22500.0
+latitude,"latitude, decimal degrees",numeric,0,31779,-77.847,71.292
+longitude,"longitude, decimal degrees",numeric,0,33036,-179.9777,179.3887
+primary_fuel,fuel used for primary electricity generation,text/categorical,0,15,,
+other_fuel1,"secondary fuel, if any",text/categorical,32992,12,,
+other_fuel2,"third fuel, if any",text/categorical,34660,11,,
+other_fuel3,"fourth fuel, if any",text/categorical,34844,8,,
+commissioning_year,year the plant began operation (see the WRI technical note for multi-unit plants),numeric,17489,2023,1896.0,2020.0
+owner,owner,text/categorical,14068,10144,,
+source,data source,text/categorical,15,866,,
+url,source URL,text/categorical,18,4870,,
+geolocation_source,source of the coordinates,text/categorical,419,28,,
+wepp_id,identifier in another database (WEPP),text/categorical,18702,15263,,
+year_of_capacity_data,year the capacity figure refers to,numeric,20049,11,2000.0,2019.0
+generation_gwh_2013,"reported electricity generation in 2013, gigawatt-hours",numeric,28519,5458,-947.6,50834.0
+generation_gwh_2014,"reported electricity generation in 2014, gigawatt-hours",numeric,27710,6159,-989.619,32320.917
+generation_gwh_2015,"reported electricity generation in 2015, gigawatt-hours",numeric,26733,7037,-864.428,37433.607
+generation_gwh_2016,"reported electricity generation in 2016, gigawatt-hours",numeric,25792,7671,-768.62,32377.477
+generation_gwh_2017,"reported electricity generation in 2017, gigawatt-hours",numeric,25436,7974,-934.944,36448.643
+generation_gwh_2018,"reported electricity generation in 2018, gigawatt-hours",numeric,25299,7946,-982.622,35136.0
+generation_gwh_2019,"reported electricity generation in 2019, gigawatt-hours",numeric,25277,8327,-780.339,31920.368
+generation_data_source,source of reported generation,text/categorical,23536,17,,
+estimated_generation_gwh_2013,"MODELED generation in 2013, GWh (WRI's estimate, computed from capacity and fuel)",numeric,18816,8845,1.12,48675.06
+estimated_generation_gwh_2014,"MODELED generation in 2014, GWh (WRI's estimate, computed from capacity and fuel)",numeric,18433,9027,0.87,58470.77
+estimated_generation_gwh_2015,"MODELED generation in 2015, GWh (WRI's estimate, computed from capacity and fuel)",numeric,17886,9113,0.44,57113.35
+estimated_generation_gwh_2016,"MODELED generation in 2016, GWh (WRI's estimate, computed from capacity and fuel)",numeric,17366,9280,0.3,60859.73
+estimated_generation_gwh_2017,"MODELED generation in 2017, GWh (WRI's estimate, computed from capacity and fuel)",numeric,1798,15023,0.0,82810.77
+estimated_generation_note_2013,method used for the 2013 estimate,text/categorical,0,5,,
+estimated_generation_note_2014,method used for the 2014 estimate,text/categorical,0,5,,
+estimated_generation_note_2015,method used for the 2015 estimate,text/categorical,0,5,,
+estimated_generation_note_2016,method used for the 2016 estimate,text/categorical,0,5,,
+estimated_generation_note_2017,method used for the 2017 estimate,text/categorical,0,6,,

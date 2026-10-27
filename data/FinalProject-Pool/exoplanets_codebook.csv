@@ -1,0 +1,26 @@
+variable,definition,dtype,n_missing,n_unique,min,max
+name,planet name,text/categorical,0,5414,,
+binaryflag,"0 = no known stellar binary companion; 1 = P-type (circumbinary) planet; 2 = S-type binary; 3 = orphan planet, no star (oec_tables FIELDS.md)",numeric,0,4,0,3
+mass,"planet mass, Jupiter masses (m sin i, a minimum mass, for radial-velocity planets)",numeric,2637,1737,7.7581378e-06,263.0
+radius,"planet radius, Jupiter radii",numeric,1248,1492,0.0023,6.0
+period,"orbital period, days",numeric,308,5087,0.065115,8040000.0
+semimajoraxis,"semi-major axis, AU",numeric,2601,1915,0.00442,6471.0
+eccentricity,orbital eccentricity,numeric,3239,492,-0.129287,280.0
+periastron,"longitude of periastron, degrees",numeric,4401,736,-233.0,791.0
+longitude,"mean longitude at epoch, degrees",numeric,5371,43,-174.64,339.3
+ascendingnode,"longitude of the ascending node, degrees",numeric,5362,43,-5.11260389,320.8
+inclination,"orbital inclination, degrees",numeric,3698,767,-0.00054346,305.0
+temperature,"planet temperature (surface or equilibrium), kelvin",numeric,3778,1299,96.4,7112.0
+age,"planet age, Gyr",numeric,5410,4,0.0055,3.0
+discoverymethod,"discovery method (transit, RV, imaging, microlensing, timing, ...)",text/categorical,10,7,,
+discoveryyear,year of discovery,numeric,9,34,1781.0,2023.0
+lastupdate,date of last catalogue update,text/categorical,5,748,,
+system_rightascension,right ascension of the system (hh mm ss),text/categorical,9,4035,,
+system_declination,declination of the system (+/- dd mm ss),text/categorical,9,4044,,
+system_distance,"distance from the Sun, parsecs",numeric,228,3443,1.295,8500.0
+hoststar_mass,"host star mass, solar masses",numeric,292,688,0.01,9.1
+hoststar_radius,"host star radius, solar radii",numeric,633,923,1.4e-05,86.4
+hoststar_metallicity,"host star metallicity, log relative to solar",numeric,1587,344,-2.09,7.79
+hoststar_temperature,"host star temperature, kelvin",numeric,582,1947,58.37,29300.0
+hoststar_age,"host star age, Gyr",numeric,4819,215,0.002,80.0
+list,"catalogue list membership (Confirmed planets, Controversial, Planets in binary systems, ...)",text/categorical,0,16,,
